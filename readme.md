@@ -60,4 +60,10 @@ The Traditional Baguette remains the best-selling product throughout the day, re
 
 The Formule Sandwich experiences two sales peaks, aligning with typical lunch breaks and post-work hours. Sales start rising in the morning, peaking at noon with an average revenue of €35.80 and 5.3 average units sold. A second peak occurs at 7 PM, generating an average revenue of €32.50. This confirms that the Formule Sandwich is primarily purchased by workers and students.
 
+
+## Popular Product Combinations
+The most popular product combination was the Croissant and Pain Au Chocolat. The result of the Market Basket Analysis showed that customers who buy Croissants are 6.1 times more likely to buy a Pain Au Chocolat. Additionally, when a Croissant is purchased, 47.17% of the time a Pain au Chocolat is also bought.
+Another notable pattern involves Boule, Campagne, and Special Bread, which are often bought alongside Coupe (a request for sliced bread). This makes sense, as Boule and Campagne are large, crusty loaves that customers likely prefer to have pre-sliced rather than cutting them at home.
+
+
 # Methodology and Tools
