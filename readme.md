@@ -8,6 +8,17 @@ La Baguette Enchantée is a small bakery located in Paris. As a family business,
 
 **The Jupyter Notebook of the project can be found [here](https://github.com/fedemaximovicz/BakerySales/blob/master/bakery_sales.ipynb)**.
 
+# Methodology and Tools
+- **Data Cleaning**: Corrected inconsistencies and formatted data for analysis.
+- **Exploratory Data Analysis (EDA)**: Identified trends, peak hours, and top-selling products.
+- **Time Series Analysis**: Analyzed sales seasonality and demand fluctuations.
+- **Market Basket Analysis**: Used Apriori algorithm to detect product bundling opportunities.
+
+## Tools
+- **Python**(Pandas, NumPy, Matplotlib, Seaborn)
+- **Jupyter Notebook**
+- **Tableau**
+
 # The Data
 La Baguette Enchantée is a fictitious bakery created to emulate a real-world scenario for this project. The data used is from Kaggle and uploaded by Matthieu Gimbert, [click here to go to the Kaggle page of the dataset](https://www.kaggle.com/datasets/matthieugimbert/french-bakery-daily-sales).
  
@@ -64,6 +75,12 @@ The Formule Sandwich experiences two sales peaks, aligning with typical lunch br
 ## Popular Product Combinations
 The most popular product combination was the Croissant and Pain Au Chocolat. The result of the Market Basket Analysis showed that customers who buy Croissants are 6.1 times more likely to buy a Pain Au Chocolat. Additionally, when a Croissant is purchased, 47.17% of the time a Pain au Chocolat is also bought.
 Another notable pattern involves Boule, Campagne, and Special Bread, which are often bought alongside Coupe (a request for sliced bread). This makes sense, as Boule and Campagne are large, crusty loaves that customers likely prefer to have pre-sliced rather than cutting them at home.
+![popular product combinations](/images/product_association.png)
 
+# Recommendations
+1. **Leverage the Popularity of the Traditional Baguette**: The **Traditional Baguette represents 25% of the bakery's revenue**, indicating that a large portion of the customers visit the bakery primarily to buy bread. This presents an opportunity to **increase the sales of underperforming products** by selling them alongside Traditional Baguettes with **promotions or bundles**. Since customers are already buying baguettes, adding an extra product is a low-friction decision. This could help to introduce them to products they might not have considered before.
+2. **Create promotions and bundles for products that are frequently bought together**: Market Basket Analysis revealed that products like Croissants and Pain Au Chocolat are frequent product combinations, **selling them in bundles and exhibiting them together in-store** can help boost sales further by encouraging customers to buy them together more often.
+3. **Combat Seasonal Sales Declines in Winter**: Sales drop significantly during winter months, some of the strategies to reduce this could be: 
+    - **Introduce seasonal products**: Hot meals like Croque Monsieur and Croque Madame to replace cold sandwiches like the Formule Sandwich which is the workers' favourite. Hot chocolate and warm pastries could also attract clients during the cold weather.
+    - **Introduce loyalty discounts to retain clients**, this could help keep the sales of Traditional Baguette high reducing the amount of clients switching to supermarkets. Maintaining consistent sales of Traditional Baguettes can help offset seasonal dips in revenue.
 
-# Methodology and Tools
