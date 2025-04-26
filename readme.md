@@ -17,7 +17,7 @@ La Baguette Enchantée is a small bakery located in Paris. As a family business,
 ## Tools
 - **Python**(Pandas, NumPy, Matplotlib, Seaborn)
 - **Jupyter Notebook**
-- **Tableau**
+- **Tableau**: For the charts used [on this presentation](https://docs.google.com/presentation/d/1uB84Fx5FDOKwnWku1IOLb29jXx7Naf_VgfzUSfrcPOQ/edit?usp=sharing)
 
 # The Data
 La Baguette Enchantée is a fictitious bakery created to emulate a real-world scenario for this project. The data used is from Kaggle and uploaded by Matthieu Gimbert, [click here to go to the Kaggle page of the dataset](https://www.kaggle.com/datasets/matthieugimbert/french-bakery-daily-sales).
