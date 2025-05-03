@@ -1,3 +1,4 @@
+![bakery logo](/images/small_bakery_logo.png)
 # Project Background
 La Baguette Enchantée is a small bakery located in Paris. As a family business, its owners put a lot of dedication into delivering the best products and attention to its clients. They have been collecting transaction data since 2021, and they think it's time to put this data into use. This project analyzes La Baguette Enchantée's sales data to identify customer purchasing patterns and uncover insights that will help improve the business operations of the bakery.
 
